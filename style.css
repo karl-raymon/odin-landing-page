@@ -190,6 +190,10 @@ button:nth-child(1) {
   padding: 96px;
 }
 
+.cta-wrapper {
+  border-radius: 10px;
+}
+
 .footer {
   padding: 24px;
 }
