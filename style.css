@@ -197,3 +197,15 @@ button:nth-child(1) {
 .footer {
   padding: 24px;
 }
+
+.square {
+  overflow: hidden;
+  position: relative;
+}
+
+.items {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  height: 150px;
+}
