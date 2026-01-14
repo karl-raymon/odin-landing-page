@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+ul,
+.header,
+.main,
+.child,
+.hero-wrapper,
+.info-content,
+.card-wrapper,
+.card,
+.qoute-wrapper,
+.cta-wrapper {
+  display: flex;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+
+body,
+.main,
+.info-content,
+.qoute-wrapper,
+.card {
+  flex-direction: column;
+}
+
+.header-logo,
+.hero-title {
+  color: #f9faf8;
+}
+
+.hero-wrapper,
+.info-content,
+.qoute-wrapper,
+.cta-wrapper {
+  padding: 48px;
+}
+
+.main,
+.child {
+  flex: 1;
+}
+
+.main,
+.hero-wrapper,
+.info-content,
+.qoute-wrapper {
+  align-items: center;
+}
+
+.hero-wrapper,
+.info-content,
+.cta-wrapper {
+  width: 60vw;
+}
+
+.child,
+.footer,
+.card-wrapper {
+  justify-content: center;
+}
+
+.header-links,
+.info-content,
+.card-wrapper {
+  gap: 24px;
+}
+
+button,
+.info-header,
+.hero-title {
+  font-weight: 900;
+}
+
+.footer,
+.card {
+  text-align: center;
+}
+
+.cta-text,
+button,
+.footer-text,
+.hero-subtext,
+.header-links {
+  color: #e5e7eb;
+}
+
+.hero-subtext,
+.header-links {
+  font-size: 18px;
+}
+
+.cta-left,
+.cta-right {
+  margin: 0 auto;
+}
+
+button,
+.cta-wrapper {
+  background-color: #3882f6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.header {
+  justify-content: space-around;
+  padding: 24px;
+  border-bottom: 1px solid black;
+}
+
+.child {
+  width: 100%;
+}
+
+.header-links {
+  list-style: none;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.hero-title {
+  font-size: 48px;
+}
+
+.hero-subtext {
+  margin-bottom: 16px;
+}
+
+.info-header {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.card {
+  flex: 0;
+  gap: 16px;
+}
+
+.square {
+  border: 2px solid blue;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.qoutes {
+  background-color: #e5e7eb;
+}
+
+.qoute-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.qoute-wrapper {
+  width: 40vw;
+}
+
+.qoute-author {
+  align-self: flex-end;
+}
+
+button {
+  padding: 8px 32px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+button:nth-child(1) {
+  border: 2px solid #e5e7eb;
+}
+
+.call-to-action {
+  padding: 96px;
+}
+
+.footer {
+  padding: 24px;
+}
